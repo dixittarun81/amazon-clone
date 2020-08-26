@@ -7,6 +7,9 @@ body{
   height: 100vh;
   margin: 0;
 }
+#root{
+  height: 100%;
+}
 .grid-container{
   display: grid;
   grid-template-areas: 
@@ -136,4 +139,71 @@ a:hover{
 .sidebar-close{
   display: flex;
   justify-content: space-between;
+}
+
+/* Product Details */
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.details-image img{
+  max-width: 70rem;
+  max-height: 100rem;
+}
+
+.details-image{
+  flex: 2 1 60rem;
+}
+.details-info{
+  flex: 1 1 30rem;
+}
+.details-actions{
+  flex: 1 1 20rem;
+}
+
+.details-info ul, .details-actions ul{
+  list-style-type: none;
+  padding: none;
+}
+
+.details-info li, .details-actions li{
+  margin-bottom: 1rem;
+}
+
+.back-to-result{
+  padding: 1rem;
+}
+
+.details-actions{
+  border: .1rem #808080 solid;
+  border-radius: 0.5rem;
+  background-color: #f8f0f0;
+  padding: 1rem;
+  
+}
+
+.details-actions ul li:last-child{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  padding: 1rem;
+  border: .1rem #808080 solid;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #f0c040;
+  
+}
+
+.btn:hover{
+  border: .1rem #404040 solid;
+}
+
+.btn.primary{
+  background-color: #f0c040;
 }
