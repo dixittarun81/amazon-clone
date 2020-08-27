@@ -1,0 +1,26 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "amazon clone",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dixittarun81/amazon-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dixittarun81/amazon-clone/issues"
+  },
+  "homepage": "https://github.com/dixittarun81/amazon-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
